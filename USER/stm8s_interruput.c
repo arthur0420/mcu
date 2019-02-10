@@ -1,13 +1,14 @@
 
 
-/******************** (C) COPYRIGHT  风驰电子嵌入式开发工作室 ********************/
 
 #include "stm8s.h"
+#include "stm8s_adc2.h"
 #include "uart.h"
 
 u8 RxBuffer[RxBufferSize];
 u8 UART_RX_NUM=0;
-u8 isend = 0;
+u8 hastask = 0;  // 有数据。
+u8 adcit = 0;
 extern void Delay(u32);
 #pragma vector=1
 __interrupt void TRAP_IRQHandler(void)
@@ -167,43 +168,28 @@ __interrupt void UART3_TX_IRQHandler(void)
 __interrupt void UART3_RX_IRQHandler(void)
 {
     u8 Res;
-    if(UART3_GetITStatus(UART3_IT_RXNE )!= RESET)  
-    {/*接收中断(接收到的数据必须是0x0d 0x0a结尾)*/
-      
-      
-      
+    if(UART3_GetITStatus(UART3_IT_RXNE)!=RESET)  
+    {
         Res =UART3_ReceiveData8();
-        if(UART_RX_NUM == 0x15){ // 22 停止接受
-          isend = 1;
-        }
+        if((Res & 0xff) == 0xff){
+          
+          if(UART_RX_NUM>=2 && RxBuffer[2] == UART_RX_NUM ){ // 只在开始结束位，开始任务。
+            hastask = 1;
+          }
+          UART_RX_NUM = 0; // 置零数据标志。
+          return;
+        }       
         RxBuffer[UART_RX_NUM&0X3F] = Res;
         UART_RX_NUM++;
-        
-        /*(USART1->DR);读取接收到的数据,当读完数据后自动取消RXNE的中断标志位*/
-        
-        
-        
-        
-      
-	
-        
-        
-        
-        
-        
-        
-        
-        
-	
-        }
-  
+    }
 }
 #endif
 #if defined(STM8S207) || defined(STM8S208)
 #pragma vector=0x18
 __interrupt void ADC2_IRQHandler(void)
 {
-   
+  adcit = 1;
+  ADC2_ClearFlag();
 }
 #else
 #pragma vector=0x18

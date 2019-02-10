@@ -13,7 +13,7 @@
         <ShowSource>1</ShowSource>
     </TraceHelper>
     <DebugChecksum>
-        <Checksum>4227010703</Checksum>
+        <Checksum>2612207044</Checksum>
     </DebugChecksum>
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
@@ -101,8 +101,7 @@
         <LogFile>_ ""</LogFile>
     </TermIOLog>
     <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\USER\main.c}.77.9" 1 0 0 0 "" 0 ""</Bp0>
-        <Count>1</Count>
+        <Count>0</Count>
     </Breakpoints>
     <Aliases>
         <Count>0</Count>
