@@ -27,7 +27,7 @@ extern  u8 adcit;
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 
-#define ADDR 0xa
+#define ADDR 0x1
 
 
 
@@ -51,7 +51,7 @@ struct Device
 };
 
 struct Device devices[10] ={
-  {GPIOD,GPIOD,GPIO_PIN_3,GPIO_PIN_4,ADC2_SCHMITTTRIG_CHANNEL7,ADC2_CHANNEL_7},  
+  {GPIOD,GPIOD,GPIO_PIN_3,GPIO_PIN_4,ADC2_SCHMITTTRIG_CHANNEL7,ADC2_CHANNEL_7},
   {GPIOD,GPIOD,GPIO_PIN_0,GPIO_PIN_2,ADC2_SCHMITTTRIG_CHANNEL5,ADC2_CHANNEL_5},
   {GPIOA,GPIOA,GPIO_PIN_1,GPIO_PIN_2,ADC2_SCHMITTTRIG_CHANNEL3,ADC2_CHANNEL_3},
   {GPIOA,GPIOA,GPIO_PIN_3,GPIO_PIN_4,ADC2_SCHMITTTRIG_CHANNEL1,ADC2_CHANNEL_1},
@@ -128,7 +128,7 @@ int main(void)
             
             sendData[0] = 0x00;
             sendData[1] = 0x01;
-            sendData[2] = 0x23;
+            sendData[2] = 0x17;
             
             for(u8 i = 0 ; i< 10 ; i++){
                 uint16_t x = ADC_Read(i); 

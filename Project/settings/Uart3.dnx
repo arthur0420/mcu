@@ -13,7 +13,7 @@
         <ShowSource>1</ShowSource>
     </TraceHelper>
     <DebugChecksum>
-        <Checksum>2612207044</Checksum>
+        <Checksum>1776659357</Checksum>
     </DebugChecksum>
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
@@ -86,11 +86,17 @@
         <FreqHi>0</FreqHi>
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
+    <BreakpointUsageDialog>
+        <Placement>_ 1058 564 1503 847</Placement>
+    </BreakpointUsageDialog>
     <DataSample>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -100,9 +106,6 @@
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
     </TermIOLog>
-    <Breakpoints>
-        <Count>0</Count>
-    </Breakpoints>
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>

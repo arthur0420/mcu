@@ -5,373 +5,76 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
-            <file>$PROJ_DIR$\..\FWlib\src\stm8s_uart3.c</file>
-            <file>$PROJ_DIR$\..\USER\uart.c</file>
-            <file>$PROJ_DIR$\..\FWlib\inc\stm8s.h</file>
-            <file>$PROJ_DIR$\..\USER\stm8s_conf.h</file>
-            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_clk.h</file>
-            <file>$PROJ_DIR$\..\USER\stm8s_interruput.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.pbi</file>
-            <file>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A02_TIM精确延时（阻塞式）\Libraries\STM8S_StdPeriph_Driver\src\stm8s_tim4.c</file>
-            <file>$PROJ_DIR$\..\FWlib\src\stm8s_clk.c</file>
-            <file>$TOOLKIT_DIR$\config\lnkstm8s207c8.icf</file>
-            <file>$PROJ_DIR$\..\USER\bsp_timer.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_interruput.o</file>
-            <file>$PROJ_DIR$\..\USER\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\..\USER\bsp_timer.c</file>
-            <file>$PROJ_DIR$\Debug\Exe\Uart3.hex</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
-            <file>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A04_UART基本收发数据\Libraries\STM8S_StdPeriph_Driver\src\stm8s_gpio.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart3.o</file>
-            <file>$PROJ_DIR$\..\FWlib\src\stm8s_adc2.c</file>
-            <file>$PROJ_DIR$\..\USER\bsp_adc.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\bsp_timer.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_tim4.__cstat.et</file>
-            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_tim4.h</file>
-            <file>$PROJ_DIR$\..\..\22-Uart3\USER\main.c</file>
-            <file>$PROJ_DIR$\..\USER\uart.h</file>
-            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_uart3.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Uart3.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\bsp_timer.__cstat.et</file>
-            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_adc1.h</file>
-            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
-            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_adc2.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_tim4.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\..\FWlib\src\stm8s_adc1.c</file>
-            <file>$PROJ_DIR$\..\USER\bsp_adc.h</file>
-            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_uart1.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart3.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_interruput.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
-            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_gpio.h</file>
-            <file>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A05_ADC连续转换\STM8S-A05_ADC连续转换\Bsp\bsp_adc.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_adc1.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_adc2.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_interruput.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_adc2.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\bsp_timer.o</file>
             <file>$PROJ_DIR$\Debug\Exe\Uart3.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\bsp_adc.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart3.pbi</file>
-            <file>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A05_ADC连续转换\STM8S-A05_ADC连续转换\Bsp\bsp_adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_interruput.o</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_adc2.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.pbi</file>
+            <file>$PROJ_DIR$\..\USER\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\bsp_timer.o</file>
+            <file>$PROJ_DIR$\..\USER\stm8s_interruput.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+            <file>$PROJ_DIR$\..\USER\bsp_timer.h</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8s207c8.icf</file>
+            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_uart1.h</file>
+            <file>$PROJ_DIR$\..\FWlib\src\stm8s_adc1.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\Uart3.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\bsp_timer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\bsp_timer.pbi</file>
+            <file>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A05_ADC连续转换\STM8S-A05_ADC连续转换\Bsp\bsp_adc.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_interruput.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Uart3.pbd</file>
+            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_clk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.o</file>
+            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_tim4.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_interruput.__cstat.et</file>
+            <file>$PROJ_DIR$\..\USER\uart.c</file>
+            <file>$PROJ_DIR$\..\FWlib\src\stm8s_adc2.c</file>
+            <file>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A04_UART基本收发数据\Libraries\STM8S_StdPeriph_Driver\src\stm8s_gpio.c</file>
+            <file>$PROJ_DIR$\..\FWlib\src\stm8s_uart3.c</file>
+            <file>$PROJ_DIR$\..\FWlib\src\stm8s_clk.c</file>
+            <file>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A02_TIM精确延时（阻塞式）\Libraries\STM8S_StdPeriph_Driver\src\stm8s_tim4.c</file>
+            <file>$PROJ_DIR$\..\USER\bsp_timer.c</file>
+            <file>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A05_ADC连续转换\STM8S-A05_ADC连续转换\Bsp\bsp_adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_tim4.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart3.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart3.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.__cstat.et</file>
+            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_uart3.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\bsp_adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_tim4.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_uart3.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_adc2.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_adc1.pbi</file>
+            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_adc2.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_tim4.pbi</file>
+            <file>$PROJ_DIR$\..\FWlib\inc\stm8s.h</file>
+            <file>$PROJ_DIR$\..\FWlib\inc\stm8s_adc1.h</file>
+            <file>$PROJ_DIR$\..\USER\uart.h</file>
+            <file>$PROJ_DIR$\..\USER\stm8s_conf.h</file>
+            <file>$PROJ_DIR$\..\USER\bsp_adc.h</file>
+            <file>$PROJ_DIR$\..\USER\bsp_adc.c</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 55</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\FWlib\src\stm8s_uart3.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 22</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 58</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 41</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 30 3 56 4 5 45 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 56 3 48 45 30 4 5</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\USER\uart.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 20</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
                     <file> 0</file>
                 </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 44</file>
-                </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 29 40 3 56 4 5 45 30 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 40 30 3 48 45 56 29 4 5</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\USER\stm8s_interruput.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 13</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 43</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 51</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 3 56 4 5 45 30 48 35 29 40</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 5 4 29 35 56 3 48 45 30 40</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A02_TIM精确延时（阻塞式）\Libraries\STM8S_StdPeriph_Driver\src\stm8s_tim4.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 36</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 61</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 26</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 27 3 56 4 5 45 30 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 3 56 4 5 27 48 45 30</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\FWlib\src\stm8s_clk.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 60</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 7</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 42</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 5 3 56 4 45 30 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 48 3 45 30 56 5 4</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\USER\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 15</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 16</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 19</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 3 56 4 5 45 30 48 35 27 11 29 40</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 5 29 3 45 4 48 35 30 27 11 56 40</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\USER\bsp_timer.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 54</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 25</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 32</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 11 3 56 4 5 45 30 48 27</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 48 3 45 27 30 56 11 4 5</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A04_UART基本收发数据\Libraries\STM8S_StdPeriph_Driver\src\stm8s_gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 47</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 52</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 37</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 45 3 56 4 5 30 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 4 5 3 56 45 48 30</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\FWlib\src\stm8s_adc2.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 53</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 50</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 35 3 56 4 5 45 30 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 30 3 48 45 56 35 4 5</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\USER\bsp_adc.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 57</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 39 3 56 4 5 45 30 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 56 3 4 5 39 48 45 30</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\FWlib\src\stm8s_adc1.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 49</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 33 3 56 4 5 45 30 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 30 3 48 45 56 33 4 5</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A05_ADC连续转换\STM8S-A05_ADC连续转换\Bsp\bsp_adc.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 57</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 59 3 56 4 5 45 30 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 56 3 4 5 59 48 45 30</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\Uart3.out</name>
@@ -384,7 +87,303 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 10 54 15 53 60 47 13 36 22 20 12 34</file>
+                    <file> 12 7 26 49 16 27 1 46 39 53 2 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\USER\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24 57 55 51 58 3 4 44 28 11 48 13</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 55 48 58 24 51 44 3 4 28 11 57 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\USER\stm8s_interruput.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24 58 57 4 48 55 3 51 44 13</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 55 48 58 24 51 44 3 4 57 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FWlib\src\stm8s_adc1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44 55 3 51 48 56 58 24</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 56 55 48 58 24 51 44 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A05_ADC连续转换\STM8S-A05_ADC连续转换\Bsp\bsp_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48 55 58 24 37 3 51 44</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 37 55 48 58 24 51 44 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\USER\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 44 55 3 51 48 57 58 24</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 57 13 55 48 58 24 51 44 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FWlib\src\stm8s_adc2.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44 55 3 51 48 4 58 24</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 4 55 48 58 24 51 44 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A04_UART基本收发数据\Libraries\STM8S_StdPeriph_Driver\src\stm8s_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58 24 55 48 51 3 44</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 51 55 48 58 24 44 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FWlib\src\stm8s_uart3.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48 55 3 51 44 58 24</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 44 55 48 58 24 51 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FWlib\src\stm8s_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 55 51 44 48 24 58</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 24 55 48 58 51 44 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\STM8（Axx）_例程\STM8S-A02_TIM精确延时（阻塞式）\Libraries\STM8S_StdPeriph_Driver\src\stm8s_tim4.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 48 58 24 28 3 51 44</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 28 55 48 58 24 51 44 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\USER\bsp_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 55 51 28 44 48 11 58 24</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 11 55 48 58 24 51 44 3 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\USER\bsp_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48 55 58 24 59 3 51 44</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 59 55 48 58 24 51 44 3</file>
                 </tool>
             </inputs>
         </file>
